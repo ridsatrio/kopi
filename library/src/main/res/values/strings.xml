@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Kopi</string>
+  <string name="openDrawer">Open drawer</string>
+  <string name="closeDrawer">Close drawer</string>
+</resources>
