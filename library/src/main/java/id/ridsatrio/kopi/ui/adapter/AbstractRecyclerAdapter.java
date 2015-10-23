@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * An abstract to classes that would render a list of data by binding it
  * into a specified view.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 8/19/15.
  */
 public abstract class AbstractRecyclerAdapter<T>

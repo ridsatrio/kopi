@@ -6,7 +6,7 @@ import android.net.NetworkInfo;
 
 /**
  * Static helper class to deal with network connectivity.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 8/19/15.
  */
 public final class Connections {

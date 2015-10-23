@@ -15,7 +15,7 @@ import butterknife.ButterKnife;
  * to do is to supply your layout's and menu's resource ID, and annotate
  * your view widgets with the standard ButterKnife annotations. (Yep,
  * this class uses ButterKnife to further minimise boilerplate codes.)
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 8/18/15.
  */
 public abstract class AbstractActivity extends AppCompatActivity {

@@ -4,7 +4,7 @@ import android.os.Build;
 
 /**
  * Static helper class for dealing with user's OS version.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 10/22/15.
  */
 public final class CurrentBuildVersion {

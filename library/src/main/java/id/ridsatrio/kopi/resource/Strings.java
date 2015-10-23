@@ -5,7 +5,7 @@ import android.support.annotation.StringRes;
 
 /**
  * Static helper class to manipulate Strings.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 8/19/15.
  */
 public final class Strings {

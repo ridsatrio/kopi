@@ -12,7 +12,7 @@ import id.ridsatrio.kopi.os.CurrentBuildVersion;
 
 /**
  * Static helper class to deal with Android 6.0's new Permission system.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 10/22/15.
  */
 public final class Permissions {

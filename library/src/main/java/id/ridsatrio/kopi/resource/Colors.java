@@ -5,7 +5,7 @@ import android.support.annotation.ColorRes;
 
 /**
  * Static helper class to manipulate Colors.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 30/08/2015.
  */
 public final class Colors {

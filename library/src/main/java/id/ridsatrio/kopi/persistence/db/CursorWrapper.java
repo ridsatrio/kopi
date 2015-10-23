@@ -4,7 +4,7 @@ import android.database.Cursor;
 
 /**
  * A wrapper that simplifies Cursor for data extraction.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 22/08/2015.
  */
 public class CursorWrapper {
