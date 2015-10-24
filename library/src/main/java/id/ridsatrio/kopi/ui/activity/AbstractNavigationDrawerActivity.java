@@ -24,7 +24,7 @@ import id.ridsatrio.kopi.R;
  * to do is to supply your layout's and menu's resource ID, and annotate
  * your view widgets with the standard ButterKnife annotations. (Yep,
  * this class uses ButterKnife to further minimise boilerplate codes.)
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 8/19/15.
  */
 public abstract class AbstractNavigationDrawerActivity extends AppCompatActivity {
@@ -114,11 +114,13 @@ public abstract class AbstractNavigationDrawerActivity extends AppCompatActivity
 
     navigationView.inflateMenu(getNavigationMenuResId());
 
-    navigationView.setNavigationItemSelectedListener((MenuItem menuItem) -> {
-      onNavigationItemSelected(menuItem);
-      menuItem.setChecked(true);
-      drawerLayout.closeDrawers();
-      return true;
+    navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+      @Override public boolean onNavigationItemSelected(MenuItem menuItem) {
+        onNavigationItemSelected(menuItem);
+        menuItem.setChecked(true);
+        drawerLayout.closeDrawers();
+        return true;
+      }
     });
   }
 

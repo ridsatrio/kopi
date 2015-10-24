@@ -4,7 +4,7 @@ import java.util.Collection;
 
 /**
  * Static helper class to handle Argument validations.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 10/22/15.
  */
 public final class Arguments {

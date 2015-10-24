@@ -12,7 +12,7 @@ import id.ridsatrio.kopi.os.CurrentBuildVersion;
 
 /**
  * Static helper class to deal with Android 6.0's new Permission system.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 10/22/15.
  */
 public final class Permissions {
@@ -163,7 +163,7 @@ public final class Permissions {
    * @param activity   The activity to be checked.
    * @param permission The name of the permission being checked.
    * @return {@code true} if the permission has been granted (or if
-   * users is on API < 23) or {@code false} otherwise.
+   * users is on API 22 or below) or {@code false} otherwise.
    */
   @SuppressLint("NewApi")
   // Old requests already filtered with CurrentBuildVersion

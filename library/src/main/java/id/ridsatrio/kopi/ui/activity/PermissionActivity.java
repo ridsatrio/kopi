@@ -16,7 +16,7 @@ import id.ridsatrio.kopi.security.Permissions;
  * <b>Use with caution!</b> As the run-time permission system is
  * currently in its earliest of stages and are subjected to change in
  * future releases, so does this class.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 10/23/15.
  */
 public abstract class PermissionActivity extends AbstractActivity {

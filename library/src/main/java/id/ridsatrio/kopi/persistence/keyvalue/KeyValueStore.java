@@ -3,7 +3,7 @@ package id.ridsatrio.kopi.persistence.keyvalue;
 /**
  * Represents a persistence store where each value is mapped through a
  * String key.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 9/25/15.
  */
 public interface KeyValueStore {

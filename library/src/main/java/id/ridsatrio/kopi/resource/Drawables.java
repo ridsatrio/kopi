@@ -9,7 +9,7 @@ import id.ridsatrio.kopi.os.CurrentBuildVersion;
 
 /**
  * Static helper class to manipulate Drawables.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 10/23/15.
  */
 public final class Drawables {

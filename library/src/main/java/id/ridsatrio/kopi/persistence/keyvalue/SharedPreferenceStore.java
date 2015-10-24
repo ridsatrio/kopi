@@ -11,7 +11,7 @@ import id.ridsatrio.kopi.meta.Arguments;
 /**
  * Represents a {@link KeyValueStore} that backs itself using
  * Android's {@link SharedPreferences}.
- * <p/>
+ * <p>
  * Created by Ridho Hadi Satrio on 9/25/15.
  */
 public class SharedPreferenceStore implements KeyValueStore {
