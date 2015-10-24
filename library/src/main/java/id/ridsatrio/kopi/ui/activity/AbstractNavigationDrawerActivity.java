@@ -114,11 +114,13 @@ public abstract class AbstractNavigationDrawerActivity extends AppCompatActivity
 
     navigationView.inflateMenu(getNavigationMenuResId());
 
-    navigationView.setNavigationItemSelectedListener((MenuItem menuItem) -> {
-      onNavigationItemSelected(menuItem);
-      menuItem.setChecked(true);
-      drawerLayout.closeDrawers();
-      return true;
+    navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+      @Override public boolean onNavigationItemSelected(MenuItem menuItem) {
+        onNavigationItemSelected(menuItem);
+        menuItem.setChecked(true);
+        drawerLayout.closeDrawers();
+        return true;
+      }
     });
   }
 
