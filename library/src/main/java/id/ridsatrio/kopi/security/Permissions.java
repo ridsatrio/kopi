@@ -163,7 +163,7 @@ public final class Permissions {
    * @param activity   The activity to be checked.
    * @param permission The name of the permission being checked.
    * @return {@code true} if the permission has been granted (or if
-   * users is on API < 23) or {@code false} otherwise.
+   * users is on API 22 or below) or {@code false} otherwise.
    */
   @SuppressLint("NewApi")
   // Old requests already filtered with CurrentBuildVersion
