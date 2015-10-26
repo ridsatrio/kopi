@@ -1,6 +1,7 @@
 package id.ridsatrio.kopi.ui.adapter;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.widget.BaseAdapter;
 
 import java.util.ArrayList;
@@ -37,13 +38,13 @@ public abstract class AbstractAdapter<T> extends BaseAdapter {
   }
 
   @Override
-  public int getCount() {
-    return itemList.size();
+  public T getItem(int position) {
+    return itemList.get(position);
   }
 
   @Override
-  public T getItem(int position) {
-    return itemList.get(position);
+  public int getCount() {
+    return itemList.size();
   }
 
   @Override
@@ -53,5 +54,9 @@ public abstract class AbstractAdapter<T> extends BaseAdapter {
 
   protected Context getContext() {
     return context;
+  }
+
+  protected LayoutInflater getLayoutInflater() {
+    return ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE));
   }
 }

@@ -2,6 +2,7 @@ package id.ridsatrio.kopi.ui.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,12 +41,16 @@ public abstract class AbstractRecyclerAdapter<T>
     return itemList.get(position);
   }
 
+  @Override
+  public int getItemCount() {
+    return itemList.size();
+  }
+
   protected Context getContext() {
     return context;
   }
 
-  @Override
-  public int getItemCount() {
-    return itemList.size();
+  protected LayoutInflater getLayoutInflater() {
+    return ((LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE));
   }
 }
