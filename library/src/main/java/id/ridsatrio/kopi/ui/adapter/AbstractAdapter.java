@@ -14,7 +14,7 @@ import java.util.List;
  */
 public abstract class AbstractAdapter<T> extends BaseAdapter {
 
-  protected Context context;
+  private Context context;
   private List<T> itemList = new ArrayList<>();
 
   public AbstractAdapter(Context context) {

@@ -15,7 +15,7 @@ import java.util.List;
 public abstract class AbstractRecyclerAdapter<T>
     extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-  protected Context context;
+  private Context context;
   private List<T> itemList = new ArrayList<>();
 
   public AbstractRecyclerAdapter(Context context) {
