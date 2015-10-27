@@ -17,30 +17,30 @@ import id.ridsatrio.kopi.os.CurrentBuildVersion;
  */
 public final class Permissions {
 
-  public static final int REQUEST_CODE_READ_CALENDAR = 0x11000000;
-  public static final int REQUEST_CODE_WRITE_CALENDAR = 0x11000001;
-  public static final int REQUEST_CODE_CAMERA = 0x11000010;
-  public static final int REQUEST_CODE_READ_CONTACTS = 0x11000011;
-  public static final int REQUEST_CODE_WRITE_CONTACTS = 0x11000100;
-  public static final int REQUEST_CODE_ACCOUNT = 0x11000101;
-  public static final int REQUEST_CODE_MICROPHONE = 0x11000110;
-  public static final int REQUEST_CODE_COARSE_LOCATION = 0x11000111;
-  public static final int REQUEST_CODE_FINE_LOCATION = 0x11001000;
-  public static final int REQUEST_CODE_READ_PHONE_STATE = 0x11001001;
-  public static final int REQUEST_CODE_CALL_PHONE = 0x11001011;
-  public static final int REQUEST_CODE_READ_CALL_LOG = 0x11001111;
-  public static final int REQUEST_CODE_WRITE_CALL_LOG = 0x11010000;
-  public static final int REQUEST_CODE_ADD_VOICEMAIL = 0x11010001;
-  public static final int REQUEST_CODE_USE_SIP = 0x11010011;
-  public static final int REQUEST_CODE_PROCESS_OUTGOING_CALL = 0x11010111;
-  public static final int REQUEST_CODE_SEND_SMS = 0x11011111;
-  public static final int REQUEST_CODE_RECEIVE_SMS = 0x11100000;
-  public static final int REQUEST_CODE_READ_SMS = 0x11100001;
-  public static final int REQUEST_CODE_RECEIVE_WAP_PUSH = 0x11100011;
-  public static final int REQUEST_CODE_RECEIVE_MMS = 0x11100100;
-  public static final int REQUEST_CODE_READ_STORAGE = 0x11100101;
-  public static final int REQUEST_CODE_WRITE_STORAGE = 0x11100111;
-  public static final int REQUEST_CODE_SENSORS = 0x11101000;
+  public static final int REQUEST_CODE_READ_CALENDAR = 8;
+  public static final int REQUEST_CODE_WRITE_CALENDAR = 16;
+  public static final int REQUEST_CODE_CAMERA = 24;
+  public static final int REQUEST_CODE_READ_CONTACTS = 32;
+  public static final int REQUEST_CODE_WRITE_CONTACTS = 40;
+  public static final int REQUEST_CODE_ACCOUNT = 48;
+  public static final int REQUEST_CODE_MICROPHONE = 56;
+  public static final int REQUEST_CODE_COARSE_LOCATION = 64;
+  public static final int REQUEST_CODE_FINE_LOCATION = 72;
+  public static final int REQUEST_CODE_READ_PHONE_STATE = 80;
+  public static final int REQUEST_CODE_CALL_PHONE = 88;
+  public static final int REQUEST_CODE_READ_CALL_LOG = 96;
+  public static final int REQUEST_CODE_WRITE_CALL_LOG = 104;
+  public static final int REQUEST_CODE_ADD_VOICEMAIL = 112;
+  public static final int REQUEST_CODE_USE_SIP = 120;
+  public static final int REQUEST_CODE_PROCESS_OUTGOING_CALL = 128;
+  public static final int REQUEST_CODE_SEND_SMS = 136;
+  public static final int REQUEST_CODE_RECEIVE_SMS = 148;
+  public static final int REQUEST_CODE_READ_SMS = 156;
+  public static final int REQUEST_CODE_RECEIVE_WAP_PUSH = 164;
+  public static final int REQUEST_CODE_RECEIVE_MMS = 172;
+  public static final int REQUEST_CODE_READ_STORAGE = 180;
+  public static final int REQUEST_CODE_WRITE_STORAGE = 188;
+  public static final int REQUEST_CODE_SENSORS = 196;
 
   public static void requestReadCalendar(Activity activity) {
     request(activity, Manifest.permission.READ_CALENDAR, REQUEST_CODE_READ_CALENDAR);
